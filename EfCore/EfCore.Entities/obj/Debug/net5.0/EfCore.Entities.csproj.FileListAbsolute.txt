@@ -1,0 +1,11 @@
+C:\Users\Kutay\Desktop\dotnet\SOLID\EfCore\EfCore.Entities\bin\Debug\net5.0\EfCore.Entities.deps.json
+C:\Users\Kutay\Desktop\dotnet\SOLID\EfCore\EfCore.Entities\bin\Debug\net5.0\EfCore.Entities.dll
+C:\Users\Kutay\Desktop\dotnet\SOLID\EfCore\EfCore.Entities\bin\Debug\net5.0\EfCore.Entities.pdb
+C:\Users\Kutay\Desktop\dotnet\SOLID\EfCore\EfCore.Entities\obj\Debug\net5.0\EfCore.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kutay\Desktop\dotnet\SOLID\EfCore\EfCore.Entities\obj\Debug\net5.0\EfCore.Entities.AssemblyInfoInputs.cache
+C:\Users\Kutay\Desktop\dotnet\SOLID\EfCore\EfCore.Entities\obj\Debug\net5.0\EfCore.Entities.AssemblyInfo.cs
+C:\Users\Kutay\Desktop\dotnet\SOLID\EfCore\EfCore.Entities\obj\Debug\net5.0\EfCore.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Kutay\Desktop\dotnet\SOLID\EfCore\EfCore.Entities\obj\Debug\net5.0\EfCore.Entities.dll
+C:\Users\Kutay\Desktop\dotnet\SOLID\EfCore\EfCore.Entities\obj\Debug\net5.0\refint\EfCore.Entities.dll
+C:\Users\Kutay\Desktop\dotnet\SOLID\EfCore\EfCore.Entities\obj\Debug\net5.0\EfCore.Entities.pdb
+C:\Users\Kutay\Desktop\dotnet\SOLID\EfCore\EfCore.Entities\obj\Debug\net5.0\ref\EfCore.Entities.dll

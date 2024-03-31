@@ -1,0 +1,403 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.UI\\EfCore.UI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.Business\\EfCore.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.Business\\EfCore.Business.csproj",
+        "projectName": "EfCore.Business",
+        "projectPath": "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.Business\\EfCore.Business.csproj",
+        "packagesPath": "C:\\Users\\Kutay\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kutay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.Common\\EfCore.Common.csproj": {
+                "projectPath": "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.Common\\EfCore.Common.csproj"
+              },
+              "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.DataAccess\\EfCore.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.DataAccess\\EfCore.DataAccess.csproj"
+              },
+              "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.Dtos\\EfCore.Dtos.csproj": {
+                "projectPath": "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.Dtos\\EfCore.Dtos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.Common\\EfCore.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.Common\\EfCore.Common.csproj",
+        "projectName": "EfCore.Common",
+        "projectPath": "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.Common\\EfCore.Common.csproj",
+        "packagesPath": "C:\\Users\\Kutay\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kutay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.DataAccess\\EfCore.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.DataAccess\\EfCore.DataAccess.csproj",
+        "projectName": "EfCore.DataAccess",
+        "projectPath": "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.DataAccess\\EfCore.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Kutay\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kutay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.Entities\\EfCore.Entities.csproj": {
+                "projectPath": "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.Entities\\EfCore.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.Dtos\\EfCore.Dtos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.Dtos\\EfCore.Dtos.csproj",
+        "projectName": "EfCore.Dtos",
+        "projectPath": "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.Dtos\\EfCore.Dtos.csproj",
+        "packagesPath": "C:\\Users\\Kutay\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.Dtos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kutay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.Entities\\EfCore.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.Entities\\EfCore.Entities.csproj",
+        "projectName": "EfCore.Entities",
+        "projectPath": "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.Entities\\EfCore.Entities.csproj",
+        "packagesPath": "C:\\Users\\Kutay\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kutay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.UI\\EfCore.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.UI\\EfCore.UI.csproj",
+        "projectName": "EfCore.UI",
+        "projectPath": "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.UI\\EfCore.UI.csproj",
+        "packagesPath": "C:\\Users\\Kutay\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kutay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.Business\\EfCore.Business.csproj": {
+                "projectPath": "C:\\Users\\Kutay\\Desktop\\dotnet\\SOLID\\EfCore\\EfCore.Business\\EfCore.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

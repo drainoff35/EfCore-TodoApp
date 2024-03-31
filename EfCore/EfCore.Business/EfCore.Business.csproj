@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="FluentValidation" Version="11.9.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EfCore.Common\EfCore.Common.csproj" />
+    <ProjectReference Include="..\EfCore.DataAccess\EfCore.DataAccess.csproj" />
+    <ProjectReference Include="..\EfCore.Dtos\EfCore.Dtos.csproj" />
+  </ItemGroup>
+
+</Project>

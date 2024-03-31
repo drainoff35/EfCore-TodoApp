@@ -1,0 +1,49 @@
+﻿@model List<WorkListDto>
+
+<html>
+<head>
+
+    <title> ToDo App </title>
+    <link href="~/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+
+    <div class="container my-2">
+        
+            <h3>Yapılacaklar Listesi</h3>
+        
+        <div class="text-end my-2">
+            <a asp-action="Create" asp-controller="Home" class="btn btn-primary">Yeni iş ekle</a>
+        </div>
+        <table class="table table-hovered table-bordered table-sm">
+            <thead>
+                <tr>
+                    <th>
+                        İş
+                    </th>
+                    <th>
+                        Durumu
+                    </th>
+                    <th>
+                        İşlem
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Definition</td>
+                        <td>@(item.IsCompleted ? "Tamamlandı" : "Tamamlanmadı")</td>
+                        <td>
+                            <a asp-action="Update" asp-controller="Home" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Güncelle</a>
+                            <a asp-action="Delete" asp-controller="Home" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Sil</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </>
+</body>
+</html>

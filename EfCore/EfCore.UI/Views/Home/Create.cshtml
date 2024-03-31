@@ -1,0 +1,36 @@
+﻿@model WorkCreateDto
+
+<html>
+<head>
+
+    <title> ToDo App </title>
+    <link href="~/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="container my-2">
+       
+            <h3>Yeni iş ekle</h3>
+        
+        <div class="text-end my-2">
+            <a asp-action="Create" asp-controller="Home" class="btn btn-primary">Yeni iş ekle</a>
+        </div>
+        <form method="post" asp-action="Create" asp-controller="Home">
+            <div class="mb-3">
+                <label>İşin Tanımı:</label>
+                <input asp-for="@Model.Definition" class="form-control" />
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" asp-for="@Model.IsCompleted">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Tamamlandı Mı?
+                </label>
+            </div>
+            <div class="mb-3">
+                <button type="submit" class="btn btn-primary">Ekle</button>
+            </div>
+            <div asp-validation-summary="All" class="text-danger"></div>
+        </form>
+    </div>
+</body>
+</html>
